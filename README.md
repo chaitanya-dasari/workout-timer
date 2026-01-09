@@ -1,16 +1,26 @@
-# workout_timer
+# Workout Timer (Flutter)
 
-A new Flutter project.
+A modern workout interval timer built with Flutter/Dart. Supports WORK/REST intervals across multiple sets, an optional 3-second prep countdown, audio cues, progress visuals, and persistent settings.
 
-## Getting Started
+## Download (Android)
+- Download the latest APK from the **GitHub Releases** section and install it on your Android device.
 
-This project is a starting point for a Flutter application.
+> If Android blocks installation, enable **Install unknown apps** for your browser/files app.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- WORK / REST interval timer with set tracking
+- Optional fixed **3-second PREP** countdown before each WORK phase (toggle)
+- Audio cues:
+  - Set start (WORK begins)
+  - Rest start (WORK → REST)
+  - Done sound when workout completes
+  - Countdown beep for 3-2-1 (when PREP enabled)
+- Scroll pickers:
+  - Work seconds (1–300)
+  - Rest seconds (1–300)
+  - Sets constrained so total session ≤ 3 hours
+- Settings lock while active (prevents changing config mid-workout)
+- Settings persistence using SharedPreferences
+- Clean UI with circular progress + phase styling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
