@@ -23,4 +23,18 @@ A modern workout interval timer built with Flutter/Dart. Supports WORK/REST inte
 - Settings persistence using SharedPreferences
 - Clean UI with circular progress + phase styling
 
+## Tech Stack
+- Flutter (Dart)
+- Android (APK distribution)
+- audioplayers (audio cues)
+- shared_preferences (persistent settings)
+- Material 3 UI
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/screenshot1.png" width="250"/>
+  <img src="docs/screenshots/screenshot2.png" width="250"/>
+</p>
+
 
